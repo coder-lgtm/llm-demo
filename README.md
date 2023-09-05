@@ -25,5 +25,23 @@ Repository contains
 * Open source Large Language Model - [Llama2 by Meta](https://ai.meta.com/llama/)
 
 ### Setup instructions
+(These are for MacOS, if you are using Windows system, just google for similar instructions on Windows)
+- [ ] Install Homebrew if you don't have it.
+      Go to a terminal and run $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+- [ ] Install python 3.8 using homebrew
+      brew install python@3.8
+- [ ] Checkout this repository
+      git checkout git@github.com:coder-lgtm/llm-demo.git
+      OR
+      Just download the repository from https://github.com/coder-lgtm/llm-demo/archive/refs/heads/main.zip and unzip
+- [ ] cd into the llmdemo directory and run the following to install dependencies using the requirements.txt
+      pip3 install -r ./requirements.txt
+      This will install streamlit and replicate packages for you to use
+- [ ] Create an account on [Replicate](https://replicate.com/explore). You should receive an API key that starts with r8_<>. You will need this for this workshop. I used my github account to login, this       helps with the integration greatly.
 
-
+### Workshop action items
+- [ ] Familiarize yourself with the Replicate interface
+- [ ] 
+### References and useful links
+* https://www.kaggle.com/datasets
+* https://huggingface.co/models?dataset=dataset:databricks/databricks-dolly-15k
