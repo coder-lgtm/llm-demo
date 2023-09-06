@@ -64,6 +64,7 @@ This repository contains instructions and code for building custom applications 
 - [ ] Create an account on [Replicate](https://replicate.com/explore). You should receive an API key that starts with r8_<>. You will need this for this workshop. I used my github account to login, this helps with the integration greatly.
 
 ## Workshop Agenda
+
 - [ ] Familiarize yourself with Replicate interface
     <img
   src="./images/ReplicateDashboard.png"
@@ -71,10 +72,10 @@ This repository contains instructions and code for building custom applications 
   title="Dashboard"
   style="display: inline-block; margin: 0 auto; max-width: 200px">
   
-- [ ] Checkout Streamlit interface 
+- [ ] Overview of Streamlit 
 - [ ] Go over the Demo Chat App code
-- [ ] Execute the code and launch the Streamlit app - show how tweaking the different controls helps
-- [ ] Discuss the custom fine tuned model. Discuss the tuning process.
+- [ ] Execute the code and launch the Streamlit app - tweak the different controls to see the variations in the app behavior
+- [ ] Discuss the process of Fine Tuning LLM base model
     
      <img
   src="./images/TrainingCustomModel1.png"
@@ -88,8 +89,8 @@ This repository contains instructions and code for building custom applications 
   title="Summary of trainings"
   style="display: inline-block; margin: 0 auto; max-width: 200px">
   
-- [ ] Build a new app with the new fine tuned model.
-- [ ] Compare the performance of a custom model against the base Llama2 model
+- [ ] Build a new app with the domain-specitic fine tuned model
+- [ ] Compare the performance of the custom model against the base Llama2 model
 
 ### References and useful links
 * https://www.kaggle.com/datasets
