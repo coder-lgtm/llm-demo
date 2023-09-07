@@ -16,13 +16,13 @@
 
 
 ## Hands-On workshop to build custom application using Large Language Models (Llama2)
-This repository contains instructions and code for building custom applications using LLM, dataset builder utility code for generating a custom mini training dataset for cost effective model tuning.
+This repository contains instructions and code for building custom applications using LLM, and Dataset Builder Utility code for generating a custom mini training dataset for cost effective model tuning.
 
-### Goal of this workshop is to get familiarized with
-* Generative AI models ecosystem
-* Core concepts of the LLMs
-* Prompt Engineering
-* Fine-tune a custom model for a specific use case
+### Goals
+* Get familiarized with Generative AI models ecosystem
+* Review core LLM concepts
+* Overview of Prompt Engineering
+* Learn how to fine tune a custom model for a domain specific use case
 * Build an app using a pre-trained base LLM and domain specific fine-tuned LLM
 <img
   src="./images/chatapp.png"
@@ -31,12 +31,13 @@ This repository contains instructions and code for building custom applications 
   style="display: inline-block; margin: 0 auto; max-width: 200px">
   
 ### Repository contains
-* Installation instructions for some Open Source technologies
-* Setup instructions to use Open Sourced Meta Llama2 models
+* Installation instructions for the Open Source technologies this workshop uses
+* Account setup instructions to use Open Sourced Meta Llama2 models
 * Code to build simple chatbot application using Llama2 and Streamlit
 * Custom mini dataset creator for fine tuning Llama2
-* Sample dataset
+* Sample datasets
 * Replicate model training scripts
+* Dataset builder utility code
   
 ## Pre-workshop setup steps
 ### We will be using following tools and resources
