@@ -50,17 +50,17 @@ This repository contains instructions and code for building custom applications 
 
 ### Setup instructions
 - [ ] If you are using Windows, just [download Python](https://www.python.org/downloads/) and run the installer
-- [ ] For Mac, Install Homebrew if you don't have it.
+- [ ] For Mac, Install Homebrew if you don't have it. <br>
       Go to a terminal and run ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
-- [ ] Install python 3.8 using homebrew
+- [ ] Install python 3.8 using homebrew <br>
       ```brew install python@3.8```
       
-- [ ] Checkout this repository
-      ```git checkout git@github.com:coder-lgtm/llm-demo.git```
-      OR
-      Just download the repository from https://github.com/coder-lgtm/llm-demo/archive/refs/heads/main.zip and unzip
-- [ ] cd into the llm-demo directory and run the following to install dependencies using the requirements.txt
-      ```pip3 install -r ./requirements.txt```
+- [ ] Checkout this repository </br>
+      ```git checkout git@github.com:coder-lgtm/llm-demo.git``` <br>
+      OR <br> 
+      Just download the repository from https://github.com/coder-lgtm/llm-demo/archive/refs/heads/main.zip and unzip <br>
+- [ ] cd into the llm-demo directory and run the following to install dependencies using the requirements.txt <br>
+      ```pip3 install -r ./requirements.txt``` <br>
       This will install streamlit and replicate packages for you to use
 - [ ] Create an account on [Replicate](https://replicate.com/explore). You should receive an API key that starts with r8_<>. You will need this for this workshop. I used my github account to login, this helps with the integration greatly.
 
