@@ -56,12 +56,16 @@ This repository contains instructions and code for building custom applications 
       ```brew install python@3.8```
       
 - [ ] Checkout this repository </br>
-      ```git checkout git@github.com:coder-lgtm/llm-demo.git``` <br>
-      OR <br> 
+      ```git clone git@github.com:coder-lgtm/llm-demo.git``` <br> (You will need to have SSH key setup for this) <br><br>
+      OR <br>
+      ```git clone https://github.com/coder-lgtm/llm-demo.git``` <br> (You do not need SSH key for setup for this)  <br><br>
+      OR <br>
       Just download the repository from https://github.com/coder-lgtm/llm-demo/archive/refs/heads/main.zip and unzip <br>
-- [ ] cd into the llm-demo directory and run the following to install dependencies using the requirements.txt <br>
-      ```pip3 install -r ./requirements.txt``` <br>
-      This will install streamlit and replicate packages for you to use
+- [ ] Navigate to llm-demo/app directory and run the following to install dependencies using the requirements.txt <br>
+      If you want to run this app locally, you will need to install streamlit and replicate packages. Following command will do 
+      just that. <br>
+      ```pip3 install -r ./requirements.txt``` <br><br>
+      
 - [ ] Create an account on [Replicate](https://replicate.com/explore). You should receive an API key that starts with r8_<>. You will need this for this workshop. I used my github account to login, this helps with the integration greatly.
 
 ## Workshop Agenda
