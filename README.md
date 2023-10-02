@@ -45,7 +45,7 @@ This repository contains instructions and code for building custom applications 
 * Quick and elegant app builder - [Streamlit](https://streamlit.io/)
 * Place to host and run Machine Learning models in the Cloud - [Replicate](https://replicate.com/explore)
 * Open source Large Language Model - [Llama2 by Meta](https://ai.meta.com/llama/)
-* Fine tuned custom Model - (In progress, will update the path to this soon)
+* Fine tuned custom Model - [Summarizer Mega](https://replicate.com/coder-lgtm/summarizer-mega)
 * I use [Visual Studio Code](https://code.visualstudio.com/download) for coding but you could use any text editor as well
 
 ### Setup instructions
