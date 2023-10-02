@@ -49,7 +49,7 @@ This repository contains instructions and code for building custom applications 
 * I use [Visual Studio Code](https://code.visualstudio.com/download) for coding but you could use any text editor as well
 
 ### Setup instructions
-- [ ] If you are using Windows, just [download Python](https://www.python.org/downloads/) and run the installer
+- [ ] If you are using Windows, I recommend using [Anaconda](https://www.anaconda.com/download) for the ease of installation. Create environment in Anaconda, launch a command propmpt and run ```pip3 install -r ./requirements.txt``` <br>
 - [ ] For Mac, Install Homebrew if you don't have it. <br>
       Go to a terminal and run ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
 - [ ] Install python 3.8 using homebrew <br>
